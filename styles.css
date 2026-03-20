@@ -186,6 +186,9 @@ p{
 
 @media(max-width: 640px){
 
+    .pricing-list .list{
+        padding: 0;
+    }
     .header p{
         width: 100%;  
         font-size: 11px;
@@ -216,7 +219,16 @@ p{
         height: 40px;
      }
 
+     .popular,
+     .enterprise{
+        width: 180px;
+     }
+
+     .offers{
+        width: 220px;
+     }
+
     .offers .plan-features p{
-        font-size: 9.5px;
+        font-size: 10px;
     }
 }
