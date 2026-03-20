@@ -183,3 +183,40 @@ p{
         font-size: 1rem;
     }
 }
+
+@media(max-width: 640px){
+
+    .header p{
+        width: 100%;  
+        font-size: 11px;
+    }
+
+    .free,
+    .team{
+        display: none;
+    }
+
+    .plan-header{
+        height: 100px;
+    }
+
+    .plan-header h1{
+        font-size: 2rem;
+    }
+
+    .plan-header p{
+        font-size: 1rem;
+    }
+     .plan-features p{
+        font-size: 10px;
+        padding: 10px;
+     }
+
+     .plan-features p:last-child{
+        height: 40px;
+     }
+
+    .offers .plan-features p{
+        font-size: 9.5px;
+    }
+}
