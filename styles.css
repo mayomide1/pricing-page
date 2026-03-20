@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFFF;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.header{
+    padding: 50px;
+    text-align: center;
+    background-color: #F8FAFC;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+p{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.header h2{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #121826;
+}
+
+.header p{
+    width: 40%;
+    margin: 10px auto;
+    color: #4D5562;
+}
+
+.pricing-list{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-list .list{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+
+.offers,
+.free,
+.team,
+.popular,
+.enterprise{
+    width: 200px;
+    text-align: center; 
+}
+
+.plan-header{
+    padding: 10px 0;
+    height: 180px;
+}
+
+.plan-header p:first-child{
+    color: #263FA9;
+}
+
+.plan-header p:last-child{
+    color: #4D5562;
+}
+
+.plan-header h1{
+    font-weight: 600;
+    font-size: 4rem;
+    color: #121826;
+}
+
+.plan-features {
+    height: auto;
+}
+
+.plan-features p:last-child{
+    height: 50px;
+}
+
+.plan-features p{
+    border-bottom: 1px solid #4D556233;
+    padding: 15px 0;
+    color: #121826;
+}
+
+.plan-features p:last-child{
+    color: #263FA9;
+    border-bottom: none;
+}
+
+.offers{
+    width: 220px;
+    text-align: start;
+    background-color: #E5E7EB;
+    border-top-right-radius: 10px;
+}
+
+.offers .plan-header,
+.offers .plan-features p:last-child{
+    background-color: #ffffff;
+}
+
+.offers .plan-features p:nth-child(1){
+    border-top-left-radius: 10px;
+}
+
+.offers .plan-features p:nth-child(8){
+    border-bottom-left-radius: 10px;
+}
+
+.offers p{
+    padding: 15px 10px;
+}
+
+.popular{
+    background-color: #121826;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.popular .plan-header p:first-of-type{
+    width: 100px;
+    margin: 0 auto;
+    background-color: #263FA9;
+    color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.popular .plan-header h1,
+.popular .plan-header p:last-of-type,
+.popular .plan-features p{
+    color: #FFFFFF;
+}
+
+.popular .plan-features p:last-child{
+    background-color: #7C4F1E;
+    color: #FFFFFF;
+    border-radius:  0 0 8px 8px;
+}
+
+@media(max-width: 1024px){
+
+
+    .pricing-list {
+        width: 100%;
+        padding: 0;
+    }
+
+    .list{
+        padding: 0;
+    }
+
+    .header p{
+        width: 50%;
+    }
+
+    .free{
+        display: none;
+    }
+
+    .offers .plan-features p{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 768px){
+
+    .header p{
+        width: 90%;  
+    }
+    .free,
+    .team{
+        display: none;
+    }
+
+    .offers .plan-features p{
+        font-size: 1rem;
+    }
+}
